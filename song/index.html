@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONG</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <h1>
+        Lyrics!
+    </h1>
+    <form id="fetchLyrics">
+        <label for="songTitle"> Song Title</label>
+        <input type="text" name="songTitle" id="songTitle" placeholder="write down a song title...">
+        <br>
+        <label for="artist">Artist</label>
+        <input type="text" name="artist" id="artist" placeholder="write down a name of artist">
+        <br>
+        <br>
+        <input type="submit" value="Fetch those lyrics" id="submit">
+    </form>
+    <p class="lyricsAll">
+    </p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
